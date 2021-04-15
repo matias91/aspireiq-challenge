@@ -54,7 +54,7 @@ export default function RecipientsInput() {
         {
           showList && (
             <CSSTransition classNames="fade" timeout={300}>
-              <RecipientsList add={addRecipient} text={text} />
+              <RecipientsList add={addRecipient} recipients={recipients} text={text} />
             </CSSTransition>
           )
         }
