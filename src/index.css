@@ -15,11 +15,6 @@ body {
   flex: 1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 @font-face {
   font-family: 'SFProText';
   src: url('./assets/fonts/FontsFree-Net-SFProText-Regular.ttf'); /* IE9 Compat Modes */
