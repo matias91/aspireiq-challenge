@@ -1,19 +1,50 @@
 .recipients-input {
-  border: 0;
+  position: relative;
+}
+
+.recipients-input__container {
+  align-items: center;
+  background-color: #FDFDFD;
   border-radius: 8px;
-  font-family: 'SFProText';
-  font-size: 16px;
-  height: 49.47px;
-  padding: 0 12.5px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 27.47px;
+  padding: 11px 12.5px;
   transition: all 0.5s;
   width: 375px;
 }
 
-.recipients-input::placeholder {
+.recipients-input_input {
+  border: 0;
+  font-family: 'SFProText';
+  font-size: 16px;
+  flex: 1;
+}
+
+.recipients-input_input::placeholder {
   color: #BDBDBD;
 }
 
-.recipients-input:focus {
+.recipients-input_input:focus {
   outline: none;
-  box-shadow: 0 0 10px #888;
+}
+
+/* Animation styles */
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
 }
