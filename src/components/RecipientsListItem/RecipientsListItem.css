@@ -1,0 +1,10 @@
+.recipients-list-item {
+  font-family: 'SFProText';
+  font-size: 14px;
+  padding: 11px 21px;
+}
+
+.recipients-list-item:hover {
+  background-color: #EFF5F9;
+  cursor: pointer;
+}
