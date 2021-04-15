@@ -1,2 +1,0 @@
-# aspireiq-challenge
-AspireIQ Challenge
