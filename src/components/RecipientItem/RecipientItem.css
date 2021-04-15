@@ -1,0 +1,45 @@
+.recipient-item {
+  align-items: center;
+  border-radius: 6px;
+  color: #1A1818;
+  display: flex;
+  font-family: 'SFProText';
+  font-weight: 700;
+  padding: 5px 8px;
+  transition: all 0.5s;
+}
+
+.recipient-item:hover {
+  background-color: #EDEDED;
+  cursor: pointer;
+}
+
+.recipient-item--error {
+  background-color: #F3B7BD;
+  border-radius: 6px;
+  padding: 4px 6px;
+}
+
+.recipient-item--error::after {
+  background-color: #F1515F;
+  border-radius: 8px;
+  content: '!';
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 700;
+  margin-left: 5px;
+  padding: 2px 7px;
+  position: relative;
+}
+
+.recipient-item-text {
+  font-family: 'SFProText';
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.recipient-item-delete {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 8px;
+}
