@@ -1,6 +1,7 @@
 .recipients-list-item {
   font-family: 'SFProText';
   font-size: 14px;
+  list-style: none;
   padding: 11px 21px;
 }
 

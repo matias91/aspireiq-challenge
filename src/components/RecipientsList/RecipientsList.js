@@ -17,7 +17,9 @@ export default function RecipientsList({ add, recipients, text }) {
 
   return (
     <div className="recipients-list">
-      {list.map((email, index) => <RecipientsListItem key={index} onClick={add}>{email}</RecipientsListItem>)}
+      <ul>
+        {list.map((email, index) => <RecipientsListItem key={index} onClick={add}>{email}</RecipientsListItem>)}
+      </ul>
     </div>
   );
 }

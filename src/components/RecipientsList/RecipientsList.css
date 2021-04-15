@@ -6,8 +6,24 @@
   flex-direction: column;
   height: 261.71px;
   left: 21px;
-  overflow: scroll;
+  overflow: hidden;
   position: absolute;
   width: 294px;
-  /* top: 37px */
+}
+
+.recipients-list ul {
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  position: relative;
+}
+
+.recipients-list::after {
+  background: linear-gradient(transparent, 10%, #FFF);
+  bottom: 0;
+  content: "";
+  height: 40px;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
 }
